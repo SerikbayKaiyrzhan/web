@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <select id="parent" onchange="Change()">
+            <option disabled>Select Country</option>
+            <option value="France">France</option>
+            <option value="Russia">Russia</option>
+            <option value="Spain">Spain</option>
+    </select>
+    <select id="child">
+          <option disabled>Select city</option>
+          <option>Paris</option>
+          <option>Bordeux</option>
+          <option>Monaco</option>
+    </select>
+
+    <script>
+        function Change() {
+            var x = document.getElementById("parent");
+            var y = document.getElementById("child");
+            var z = document.getElementById("parent").value;
+            if (z == "France") {
+
+                document.getElementById("child").options[1].innerHTML = "Paris";
+                document.getElementById("child").options[2].innerHTML = "Bordeux";
+                document.getElementById("child").options[3].innerHTML = "Monaco";
+
+            } else if (z == "Russia") {
+
+                document.getElementById("child").options[1].innerHTML = "Moscow";
+                document.getElementById("child").options[2].innerHTML = "Sankt - Petersburg";
+                document.getElementById("child").options[3].innerHTML = "Ural";
+
+            } else if (z == "Spain") {
+
+                document.getElementById("child").options[1].innerHTML = "Madrid";
+                document.getElementById("child").options[2].innerHTML = "Celta";
+                document.getElementById("child").options[3].innerHTML = "Valencia";
+
+            }
+        }
+    </script>
+</body>
+
+</html>

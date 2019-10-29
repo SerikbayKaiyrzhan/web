@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div><button onclick="fun()"><span>Clear</span></button></div>
+    <ul>
+        <li><button onclick="myFunction()"><span>Finish</span></button><span id="q">Finish Web Tasks</span></li>
+        <li><button onclick="myFunction1()"><span>Finish</span></button><span id="w">Go to Gym</span></li>
+        <li><button onclick="myFunction2()"><span>Finish</span></button><span id="e">Clear Home</span></li>
+        <li><button onclick="myFunction3()"><span>Finish</span></button><span id="r">Start Project</span></li>
+        <li><button onclick="myFunction4()"><span>Finish</span></button><span id="t">Prepare to Calculus</span></li>
+
+    </ul>
+    <script>
+        function fun() {
+            location.reload();
+        }
+
+        function myFunction() {
+            var str = document.getElementById("q").innerHTML;
+            var result = str.strike();
+            document.getElementById("q").innerHTML = result;
+        }
+
+        function myFunction1() {
+            var str = document.getElementById("w").innerHTML;
+            var result = str.strike();
+            document.getElementById("w").innerHTML = result;
+        }
+
+        function myFunction2() {
+            var str = document.getElementById("e").innerHTML;
+            var result = str.strike();
+            document.getElementById("e").innerHTML = result;
+        }
+
+        function myFunction3() {
+            var str = document.getElementById("r").innerHTML;
+            var result = str.strike();
+            document.getElementById("r").innerHTML = result;
+        }
+
+        function myFunction4() {
+            var str = document.getElementById("t").innerHTML;
+            var result = str.strike();
+            document.getElementById("t").innerHTML = result;
+        }
+    </script>
+</body>
+
+</html>
