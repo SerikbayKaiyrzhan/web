@@ -1,0 +1,77 @@
+1.Goal
+The purpose of the development of the online store "MK_SHOP" is to create a convenient and effective tool for online sales of exclusive and fashionable men's clothing around the world. The purpose of the forum is to unite the fashion audience of Almaty and Kazakhstan on one Internet portal.
+
+2.Project objective
+Create an online store that:
+
+Will allow customers to conveniently and simply order goods and services
+
+"MK_SHOP»
+
+Will allow everyone to buy clothes of world brands at affordable prices
+
+Will provide local operational delivery service in Almaty within 1 day
+
+Will unite the most fashionable audience of Almaty and all interested in the direction of Fashion, through communication on the forum of the store
+
+Simplify the work of the Manager for the sale of goods and services " MK_SHOP»
+
+3.Target audience
+The target audience of the store are individuals who want to buy clothes of elite brands around the world: majors students, wealthy people, people of middle income, "Golden youth".
+
+4.The name of the software product
+Full name of the development: online store "MK_SHOP»
+
+
+WWW-address: http://www.mk_shop.ru
+
+System requirements
+5.Requirements for functional characteristics
+The store language is English
+Store currency-tenge
+
+Payment methods-Bank transfer
+
+Delivery methods-pickup, courier delivery in Almaty and Almaty region, mail in Kazakhstan
+
+The maximum number of categories and products-unlimited
+
+5.1 news-the main page of the store should display a news block (3 latest news, with the ability to view all the news).
+
+Recent additions – the main page of the store should display new items from the catalog, added by the Manager, with the ability to change their order on the page.
+
+5.2 types of goods
+The following categories of goods are planned to be sold in the online store:
+
+Men's clothing
+
+Footwear
+
+Accessories
+
+5.3 requirements for the purchase process
+The process of making a purchase in the store should look like this:
+
+The buyer from search engines, through bookmarks or external links gets to the main page, from where he can move to any section of the store.
+
+By selecting the desired product category in the side menu, the Buyer views the list of products in the category.
+
+After selecting the product of interest, the buyer gets to the page of detailed description of the product, which opens in a new window: several photos of the product, the available sizes, the number of units of the ordered thing.
+
+If the Buyer has decided to order the selected product, he presses the "Add to cart" button. The product is added to the cart. On the main page (without updating the page), a new addition appears in the cart indicating the order made.
+
+
+The contents of the recycle bin are stored during the entire session with the site (until the browser window is closed).
+
+After the selection of goods, the Buyer proceeds to the procedure of ordering. To do this, he presses the "Checkout" button (under the shopping cart icon).
+
+If The Buyer:
+
+not registered:
+
+he is invited to register, enter information about yourself (name, city and address), contact information ( phone number), login (e-mail address) and password, additional information.
+
+registered: 
+enter your username and password.
+
+After that, the Buyer gets to the order confirmation page, where he clicks confirm the correctness of the list of selected products, selected shipping and payment methods and confirm his consent to purchase.After confirming the order, he will receive an e-mail with the order parameters and confirmation that his order has been accepted for processing.After that, she pays for the goods in a convenient way, and waits for her order.
